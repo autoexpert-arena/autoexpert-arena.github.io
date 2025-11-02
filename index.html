@@ -149,7 +149,7 @@
       <div class="col-xs-12">
         <h2>Overview</h2>
         <p>
-Vast amounts of high-quality annotated data are essential for training powerful models when solving numerous real-world tasks, e.g., autonomous vehicles, ecological monitoring, bioimage analysis, medical image analysis, etc. Yet, in specialized domains, it is impractical for domain-experts to manually label the vast quantities of data. To scale the annotation process, the current paradigm is for domain experts to design detailed guidelines and then teach non-expert annotators to apply them (cf. data labeling services provided by companies such as Scale AI). However, as these annotators lack domain knowledge, their labels are often erroneous, subjective, biased, and inconsistent. Furthermore, this entire process is notoriously labor-intensive, tedious, and costly. This workshop endeavors to automate data annotation directly from expert-crafted annotation guidelines, which typically use a few visual images and textual descriptions to define object categories or animal species of interest (e.g., for recognition and detection). In plain language, we aspire to replace human annotators with AI agents.
+Machine-learned visual systems are transforming numerous fields such as autonomous driving, biodiversity assessment, and ecological monitoring, but they hunger for vast, high-quality annotated data. While asking domain experts to manually annotate large-scale data is unrealistic, the current paradigm to scale up data annotation is to have domain experts craft annotation guidelines using visual examples and descriptions for non-expert annotators to apply. This paradigm is commonly adopted by companies which provide data labeling services. Lacking domain knowledge, ordinary annotators often produce annotations that are erroneous, subjective, biased, and inconsistent. Further, this process is labor-intensive, tedious, and costly. This workshop aims to pioneer auto-annotation, developing AI agents that can interpret expert-crafted annotation guidelines and generate labels automatically. In essence, we seek to replace ordinary human annotators with AI.
 
 	<br>
 	</p>
@@ -163,22 +163,24 @@ Vast amounts of high-quality annotated data are essential for training powerful 
       <div class="col-xs-12">
         <h2>Topics</h2>
         <p>
-	Topics of interest include, but are not limited to:
+	This workshop aims to bring together computer vision researchers and practitioners from both academia and industry who are interested in the topic of auto-anontation from expert-crafted guidelines (AutoExpert). It involves multiple research topics as listed below. 
+
         </p>
         <ul>
-          <li><b>data</b>: domain-specific datasets</li>
-          <li><b>concepts</b>: ontology/taxonomy, expert-in-the-loop.</li>
-          <li><b>learning</b>: few-shot learning, semi-supervised learning, domain adaptation/generalization, open-world learning, foundation model adaptation.</li>
-          <li><b>social impact</b>: inter-disciplinary research, AI for science.</li>
-          <li><b>misc</b>:  datasets, benchmarks, robustness, generalization, etc.</li>
+          <li><b>data</b>: web-scale of data, domain-specific data, multimodal data, synthetic data, etc.</li>
+          <li><b>concepts</b>: taxonomy, ontology, vocabulary, expert/human-in-the-loop, etc.</li>
+	  <li><b>models</b>: foundation models, expert models, Large Multimodal Models (LMMs), Large Language Models (LLMs), Vision-Language Models (VLMs), Large Vision Models (LVMs), etc.</li>
+          <li><b>learning</b>: foundation model adaptation, few-shot learning, semi-supervised learning, domain adaptation, active learning, etc.</li>
+          <li><b>social impact</b>: inter-disciplinary research, real-world application, responsible AI, etc.</li>
+          <li><b>misc</b>:  dataset curation, annotation guidelines, machine-expert interaction, etc.</li>
         </ul>
       </div>
     </div>
 
 
 
-    <hr>
-    <!-- examples -->
+    <!--hr>
+    <examples>
     <p><a class="anchor" id="examples"></a></p>
     <div class="row">
       <div class="col-xs-12">
@@ -204,7 +206,7 @@ largely due to the long-tail nature of the data distribution. Visual perception 
 	  </li>
         </ul>
       </div>
-    </div>
+    </div-->
 
 
 
@@ -261,6 +263,14 @@ largely due to the long-tail nature of the data distribution. Visual perception 
             <div class="instructor-institute">Caltech</div><br>
         </div>
 
+
+ 	<div class="instructor">
+            <a href="https://people.cs.umass.edu/~smaji/" target="_blank">
+              <div class="instructorphoto"><img src="./autoexpert-arena_files/subhransu.jpg"></div>
+              <div>Subhransu Maji</div>
+            </a>
+	    <div class="instructor-institute">UMass</div><br>
+        </div>
 
 
         </div>
@@ -409,9 +419,108 @@ largely due to the long-tail nature of the data distribution. Visual perception 
               <div class="instructorphoto"><img src="./autoexpert-arena_files/Yechi-Ma.jpg"></div>
               <div>Yechi Ma</div>
             </a>
-            <div class="instructor-institute">Zhejiang University</div><br>
+            <div class="instructor-institute">ZJU</div><br>
           </div>
 
+
+	<div class="instructor">
+            <a href="https://sib.illinois.edu/directory/profile/spunya1" target="_blank">
+              <div class="instructorphoto"><img src="./autoexpert-arena_files/Surangi-Punyasena.jpg"></div>
+              <div>Surangi Punyasena</div>
+            </a>
+            <div class="instructor-institute">UIUC</div><br>
+          </div>
+
+
+
+	<div class="instructor">
+            <a href="https://stri.si.edu/scientist/carlos-jaramillo" target="_blank">
+              <div class="instructorphoto"><img src="./autoexpert-arena_files/Carlos-Jaramillo.jpg"></div>
+              <div>Carlos Jaramillo</div>
+            </a>
+            <div class="instructor-institute">Smithsonian Institution</div><br>
+          </div>
+
+
+
+
+	<div class="instructor">
+            <a href="http://www.alexwhitebiology.com/" target="_blank">
+              <div class="instructorphoto"><img src="./autoexpert-arena_files/Alex-White.jpg"></div>
+              <div>Alexander E. White</div>
+            </a>
+            <div class="instructor-institute">Smithsonian Institution</div><br>
+          </div>
+
+
+
+	<div class="instructor">
+            <a href="https://stri.si.edu/scientist/carlos-jaramillo" target="_blank">
+              <div class="instructorphoto"><img src="./autoexpert-arena_files/Marc-Ellie-Adaime.jpg"></div>
+              <div>Marc-Ellie Adaime</div>
+            </a>
+            <div class="instructor-institute">Smithsonian Institution</div><br>
+          </div>
+
+
+
+
+
+	<div class="instructor">
+            <a href="http://www.cad.zju.edu.cn/home/huawei/" target="_blank">
+              <div class="instructorphoto"><img src="./autoexpert-arena_files/Wei-Hua.jpg"></div>
+              <div>Wei Hua</div>
+            </a>
+            <div class="instructor-institute">ZJU</div><br>
+          </div>
+
+
+
+
+ 	<div class="instructor">
+            <a href="https://tian1327.github.io/" target="_blank">
+              <div class="instructorphoto"><img src="./autoexpert-arena_files/tian-liu.jpg"></div>
+              <div>Tian Liu</div>
+            </a>
+            <div class="instructor-institute">Texas A&M</div><br>
+          </div>
+
+          
+
+	<div class="instructor">
+            <a href="https://ics.uci.edu/~yunhaz5/" target="_blank">
+              <div class="instructorphoto"><img src="./autoexpert-arena_files/yunhan-zhao.jpg"></div>
+              <div>Yunhan Zhao</div>
+            </a>
+            <div class="instructor-institute">Deepmind / UCI</div><br>
+          </div>
+
+
+	<div class="instructor">
+            <a href="https://hannawang09.github.io/" target="_blank">
+              <div class="instructorphoto"><img src="./autoexpert-arena_files/Hanna-Wang.jpg"></div>
+              <div>Hanna Wang</div>
+            </a>
+            <div class="instructor-institute">UMacau</div><br>
+          </div>
+
+
+	<div class="instructor">
+            <a href="https://leowangtong.github.io/" target="_blank">
+              <div class="instructorphoto"><img src="./autoexpert-arena_files/Tong-Wang.jpg"></div>
+              <div>Di Wu</div>
+            </a>
+            <div class="instructor-institute">UMacau</div><br>
+          </div>
+
+
+	<div class="instructor">
+            <a href="https://diwu96063.github.io/" target="_blank">
+              <div class="instructorphoto"><img src="./autoexpert-arena_files/Di-Wu.jpg"></div>
+              <div>Di Wu</div>
+            </a>
+            <div class="instructor-institute">UMacau</div><br>
+          </div>
 
 
 
@@ -431,7 +540,7 @@ largely due to the long-tail nature of the data distribution. Visual perception 
 
 
 
-<p><a class="anchor" id="speakers"></a></p>
+<!--p><a class="anchor" id="speakers"></a></p>
     <div class="row">
       <div class="col-xs-12">
         <h3>Coordinators</h3>
@@ -457,7 +566,7 @@ largely due to the long-tail nature of the data distribution. Visual perception 
 
 	</div>
       </div>
-    <br>
+    <br-->
 
 
 
@@ -474,12 +583,12 @@ largely due to the long-tail nature of the data distribution. Visual perception 
         <h2>Important Dates and Details</h2>
 <!--h4> <font color="red">Links will be updated shortly!</font></h4-->
         <ul>
-          <!--li><b>Signup to receive updates</b>: using <a href="https://autoexpert-arena.github.io/autoexpert-arena_3rd.html">this form</a></li-->
-	  <li><b>Submission deadline for Challenge-1: <a href="https://eval.ai/web/challenges/challenge-page/2478/overview" target="_blank">Object Instance Detection Challenge</a></b>: starting on March 24; submission deadline on June 5, 2025.</li>
-	  <li><b>Submission deadline for Challenge-2: <a href="https://eval.ai/web/challenges/challenge-page/2459/overview" target="_blank">Foundational Few-Shot Object Detection Challenge v2</a></b>: starting on March 1; submission deadline on June 8, 2025.
+          <!--li><b>Signup to receive updates</b>: using <a href="./">this form</a></li-->
+	  <li><b>Submission deadline for Challenge-1: <a href="./" target="_blank">Automated 3D Cuboid Annotation for Autonomous Driving</a></b>: starting on March 1; submission deadline on June 5, 2026.</li>
+	  <li><b>Submission deadline for Challenge-2: <a href="./" target="_blank">Automated Species Annotation on Pollen Imagery for Ecological/Biological Research</a></b>: starting on March 1; submission deadline on June 5, 2026.
 	  Refer to the challenge page for important dates.</li>
 	  
-          <li><b>Workshop date</b>: June 11, 2025</li>
+          <li><b>Workshop date</b>: June XX, 2026</li>
         </ul>
         <!--p>Oral presentation will be selected from challenge participants, e.g., winners and those having innovative ideas.</p-->
       </div>
@@ -501,8 +610,8 @@ largely due to the long-tail nature of the data distribution. Visual perception 
 	We organize four challenge competitions this year.
         <p></p>
 <ul>
-	  <li><b><a href="https://eval.ai/web/challenges/challenge-page/2478/overview" target="_blank">Object Instance Detection Challenge</a></b></li>
-	  <li><b><a href="https://eval.ai/web/challenges/challenge-page/2459/overview" target="_blank">Foundational Few-Shot Object Detection Challenge v2</a></b></li>
+	  <li><b><a href="./" target="_blank">Automated 3D Cuboid Annotation for Autonomous Driving</a></b></li>
+	  <li><b><a href="./" target="_blank">Automated Species Annotation on Pollen Imagery for Ecological/Biological Research</a></b></li>
 
         </ul>
 
@@ -523,7 +632,7 @@ largely due to the long-tail nature of the data distribution. Visual perception 
       <div class="col-xs-12">
         <h2>Program Schedule</h2>
 
-<!--h3> <font color="red">This section is under construction!!!!</font></h3-->
+<h3> <font color="red">This section is under construction! Content below are copied from somewhere else!</font></h3>
 	<!--h3> <font color="red">The schedule will be finalized shortly!</font></h3-->
       </div>
     </div>
